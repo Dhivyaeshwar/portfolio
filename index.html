@@ -4,23 +4,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dhivya Ramesh | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
 <header class="main-header">
   <div class="container">
-    <h1 class="name">Dhivya Ramesh</h1>
-    <p class="tagline">Aspiring Tech Professional | Java, Data Analyst, AI & ML Enthusiast</p>
+    <h1 class="name">Dhivya </h1>
+    <p class="tagline">
+      Aspiring Tech Professional | Python, Java, Data Analyst, AI & ML Enthusiast
+    </p>
+
     <nav class="navbar">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
+      <a href="#internships">Internships</a>
       <a href="#certifications">Certifications</a>
       <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="#" id="contactBtn">Contact</a>
     </nav>
   </div>
 </header>
 
-
-  <section id="about">
+<!-- ================= ABOUT ================= -->
+<section id="about">
   <h2>About Me</h2>
   <div class="about-interactive">
     <div class="about-image">
@@ -28,28 +42,28 @@
     </div>
     <div class="about-content">
       <p>
-        Hello! I’m <strong>Dhivya Ramesh</strong>, a motivated and detail-oriented tech enthusiast with experience in 
-        <strong>Java</strong>, <strong>Python</strong>, <strong>SQL</strong>, <strong>Power BI</strong>, and <strong>Machine Learning</strong>. 
-        I enjoy applying technology to solve real-world challenges, and I’m passionate about turning data into actionable insights.
+        Hello! I’m <strong>Dhivya</strong>, a motivated and detail-oriented tech enthusiast with experience in 
+        <strong>Python</strong>, <strong>Java</strong>, <strong>SQL</strong>, and <strong>Machine Learning</strong>.
+        I enjoy applying technology to solve real-world problems and transforming data into insights.
       </p>
       <p>
-        I’m constantly exploring new tools, enhancing my skill set, and looking forward to contributing to projects that make a difference.
+        I continuously learn new tools and technologies and aim to contribute to impactful projects in AI and data-driven domains.
       </p>
       <a href="resume.pdf" download class="button">📄 Download Resume</a>
     </div>
   </div>
 </section>
 
-
+<!-- ================= SKILLS ================= -->
 <section id="skills">
   <h2>Skills</h2>
   <div class="skills-grid">
 
     <div class="skill-card">
-      <h4>💻 Programming Languages</h4>
+      <h4>💻 Programming</h4>
       <ul>
-        <li>Java</li>
         <li>Python</li>
+        <li>Java</li>
       </ul>
     </div>
 
@@ -58,15 +72,14 @@
       <ul>
         <li>MySQL</li>
         <li>Excel</li>
-        <li>Power BI</li>
       </ul>
     </div>
 
     <div class="skill-card">
-      <h4>🤖 AI & Machine Learning</h4>
+      <h4>🤖 AI & ML</h4>
       <ul>
         <li>Scikit-learn</li>
-        <li>pandas</li>
+        <li>Pandas</li>
         <li>Model Training & Evaluation</li>
       </ul>
     </div>
@@ -83,24 +96,36 @@
   </div>
 </section>
 
-
+<!-- ================= INTERNSHIPS ================= -->
 <section id="internships">
   <h2>Internships</h2>
   <div class="internship-grid">
 
     <div class="internship-card">
+      <h4>Junior Trainee</h4>
+      <p><strong>Company:</strong> United Soft Tech</p>
+      <p><strong>Duration:</strong> September 2025 – October 2025</p>
+      <p>
+        Worked on AI, Machine Learning, and Data Analytics projects.
+        Built predictive models and optimized algorithms while collaborating with the team.
+      </p>
+    </div>
+
+    <div class="internship-card">
       <h4>Machine Learning Intern</h4>
       <p><strong>Company:</strong> CodeAlpha</p>
       <p><strong>Duration:</strong> July 2024 – August 2024</p>
-      <p>Applied advanced ML techiniques and optimized data science through feature engineering to improve accuracy.</p>
+      <p>
+        Applied ML techniques and feature engineering to improve prediction accuracy.
+      </p>
       <a href="ML.pdf" target="_blank" class="button">📄 View Certificate</a>
     </div>
 
   </div>
 </section>
 
-
-  <section id="certifications">
+<!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications">
   <h2>Certifications</h2>
   <div class="certification-grid">
 
@@ -117,7 +142,7 @@
     </div>
 
     <div class="certification-card">
-      <h4>Data Structures and Algorithms Using Java</h4>
+      <h4>Data Structures & Algorithms Using Java</h4>
       <p>NPTEL – November 2024</p>
       <a href="Data Structure and Algorithms using Java (1).pdf" target="_blank" class="button">📄 View Certificate</a>
     </div>
@@ -131,62 +156,70 @@
   </div>
 </section>
 
-
-
-  <section id="projects">
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
   <h2>Projects</h2>
   <div class="project-grid">
 
     <div class="project-card">
       <h4>Automated Insulin Delivery System</h4>
       <p>
-        Designed to automatically monitor blood glucose levels and deliver insulin without manual intervention. When integrated with Machine Learning and a voice assistant, the system becomes adaptive, predictive, and user-friendly.
+        An intelligent system to monitor glucose levels and deliver insulin automatically.
+        Integrated ML and voice assistance for predictive and user-friendly control.
       </p>
-      <a href="https://github.com/Dhivyaeshwar/auto-insulin-system" target="_blank" class="button">🔗 View on GitHub</a>
+      <a href="https://github.com/Dhivyaeshwar/auto-insulin-system" target="_blank" class="button">
+        🔗 View on GitHub
+      </a>
     </div>
 
     <div class="project-card">
-      <h4>Disease Prediction</h4>
+      <h4>Disease Prediction System</h4>
       <p>
-        Developed a machine-learning model that predicts the presence of disease based on patient data, aiding early detection and diagnosis.
+        Developed an ML-based model to predict disease presence from patient data
+        to support early diagnosis.
       </p>
-      <a href="https://share.google/TcLVzgQhG1IjL2cgX" target="_blank" class="button">🔗 View on GitHub</a>
+      <a href="https://share.google/TcLVzgQhG1IjL2cgX" target="_blank" class="button">
+        🔗 View Project
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h4>Plant leaf Disease Detection </h4>
+      <p>
+        Build a lightweight MobilenetV3-based CNN with attention mechanism using 
+        Tensorflow\Keras to accurately detect and clasify plant leaf diseases,enabling 
+        a resource-efficient solution for smart agriculture
+      </p>
+      <a href="https://github.com/Dhivyaeshwar/Plant-leaf-disease-detection" target="_blank" class="button">
+        🔗 View Project
+      </a>
     </div>
 
   </div>
 </section>
 
+<!-- ================= CONTACT (TOGGLE BOTTOM BAR) ================= -->
+<div id="contact">
+  <a href="mailto:dhivyaramesh71@gmail.com">📧 Email</a>
+  <a href="https://linkedin.com/in/dhivyaramesh" target="_blank">🔗 LinkedIn</a>
+  <a href="https://github.com/dhivyaeshwar" target="_blank">💻 GitHub</a>
+</div>
 
-  <section id="contact">
-  <h2>Contact</h2>
-  <div class="contact-cards">
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>&copy; 2025 Dhivya Ramesh. All Rights Reserved.</p>
+</footer>
 
-    <div class="contact-card">
-      <div class="icon">📧</div>
-      <h4>Email</h4>
-      <p><a href="dhivyaramesh71@gmail.com">dhivyaramesh71@gmail.com</a></p>
-    </div>
+<!-- ================= JS ================= -->
+<script>
+  const contactBtn = document.getElementById("contactBtn");
+  const contactBar = document.getElementById("contact");
 
-    <div class="contact-card">
-      <div class="icon">💼</div>
-      <h4>LinkedIn</h4>
-      <p><a href="https://www.linkedin.com/in/dhivya-ramesh-438aa0350" target="_blank">linkedin.com/in/dhivyaramesh</a></p>
-    </div>
+  contactBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    contactBar.classList.toggle("show");
+  });
+</script>
 
-    <div class="contact-card">
-      <div class="icon">💻</div>
-      <h4>GitHub</h4>
-      <p><a href="https://github.com/Dhivyaeshwar" target="_blank">github.com/dhivyaeshwar</a></p>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-  <footer>
-    <p>&copy; 2025 Dhivya Ramesh</p>
-  </footer>
 </body>
 </html>
